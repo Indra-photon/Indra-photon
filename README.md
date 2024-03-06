@@ -17,3 +17,6 @@ Here are some ideas to get you started:
 <hr>
 <h3><b>Socials</b></h3>
 <hr>
+<a href = "https://www.facebook.com/indranil.maiti.564/"><img src="facebook.png" height = 30px width = 30px></a>
+<a href = "https://www.facebook.com/indranil.maiti.564/"><img src="facebook.png" height = 30px width = 30px></a>
+<a href = "https://www.facebook.com/indranil.maiti.564/"><img src="facebook.png" height = 30px width = 30px></a>
