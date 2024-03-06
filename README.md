@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi👋 I'm Indranil
 
 <!--
 **Indra-photon/Indra-photon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<hr>
+<h3><b>Socials</b></h3>
+<hr>
