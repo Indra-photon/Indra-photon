@@ -15,8 +15,11 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <hr>
+<h3><b>Expertise</b></h3>
+
 <h3><b>Socials</b></h3>
 <hr>
 <a href = "https://www.facebook.com/indranil.maiti.564/"><img src="facebook.png" height = 30px width = 30px></a>
 <a href = "https://www.instagram.com/indra_lone_wolf/"><img src="instagram.png" height = 30px width = 30px></a>
 <a href = "https://www.linkedin.com/in/indranil-maiti-b56967228/"><img src="linkedin.png" height = 30px width = 30px></a>
+<hr>
