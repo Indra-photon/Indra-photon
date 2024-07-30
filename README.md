@@ -24,6 +24,8 @@ Here are some ideas to get you started:
 <p>MongodB</p>
 <h2>Version control</h2>
 <p>git and github</p>
+<h2>Programming Language</h2>
+<p>Python, Javascript</p>
 
 <h3><b>Socials</b></h3>
 <hr>
