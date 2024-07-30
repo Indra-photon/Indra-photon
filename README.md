@@ -16,6 +16,8 @@ Here are some ideas to get you started:
 -->
 <hr>
 <h3><b>Expertise</b></h3>
+<h1>Frontend</h1>
+<p>HTML, CSS, Bootstrap, React.js, tailwind CSS</p>
 
 <h3><b>Socials</b></h3>
 <hr>
