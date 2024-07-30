@@ -16,13 +16,13 @@ Here are some ideas to get you started:
 -->
 <hr>
 <h3><b>Expertise</b></h3>
-### Frontend
+###Frontend
 <p>HTML, CSS, Bootstrap, React.js, tailwind CSS</p>
-### Backend
+###Backend
 <p>Node.js, Express.js</p>
-### Database
+###Database
 <p>MongodB</p>
-### Version control
+###Version control
 <p>git and github</p>
 
 <h3><b>Socials</b></h3>
