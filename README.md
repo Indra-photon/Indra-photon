@@ -1,115 +1,149 @@
-# Hi there! 👋 I'm Indranil
-
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;MERN+Stack+Enthusiast;Always+Learning+New+Things" alt="Typing SVG" />
+
+# Indranil Maiti
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=20&duration=3200&pause=900&color=2563EB&center=true&vCenter=true&width=520&lines=Design+Engineer;I+live+between+Figma+and+code;Snell's+law%2C+wired+to+a+design+token" alt="Design Engineer" />
+
+<br/>
+
+**I design and build interfaces where the behaviour is computed, not approximated.**
+
+<br/>
+
+<img src="https://img.shields.io/badge/-%20-8300B5?style=flat-square" height="6" />
+<img src="https://img.shields.io/badge/-%20-3B2BFF?style=flat-square" height="6" />
+<img src="https://img.shields.io/badge/-%20-00A3FF?style=flat-square" height="6" />
+<img src="https://img.shields.io/badge/-%20-00D97E?style=flat-square" height="6" />
+<img src="https://img.shields.io/badge/-%20-C8E600?style=flat-square" height="6" />
+<img src="https://img.shields.io/badge/-%20-FFD400?style=flat-square" height="6" />
+<img src="https://img.shields.io/badge/-%20-FF8A00?style=flat-square" height="6" />
+<img src="https://img.shields.io/badge/-%20-FF2D2D?style=flat-square" height="6" />
+
+<br/><br/>
+
+<a href="https://www.indrabuildswebsites.com/">
+  <img src="https://img.shields.io/badge/Portfolio-indrabuildswebsites.com-2563EB?style=flat-square&labelColor=0D1117" alt="Portfolio" />
+</a>
+<a href="https://www.linkedin.com/in/indranil-maiti-b56967228/">
+  <img src="https://img.shields.io/badge/LinkedIn-Indranil%20Maiti-2563EB?style=flat-square&labelColor=0D1117&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://x.com/Nil_phy_dreamer">
+  <img src="https://img.shields.io/badge/X-@Nil__phy__dreamer-2563EB?style=flat-square&labelColor=0D1117&logo=x&logoColor=white" alt="X" />
+</a>
+<a href="mailto:indranilmaiti16@gmail.com">
+  <img src="https://img.shields.io/badge/Email-indranilmaiti16@gmail.com-2563EB?style=flat-square&labelColor=0D1117&logo=gmail&logoColor=white" alt="Email" />
+</a>
+
+<sub>Toruń, Poland · GMT+2 · he/him</sub>
+
 </div>
 
 ---
 
-## 🚀 Currently Working On
+## `[ 01 ]` &nbsp; The optics lab
+
+I studied light before I built interfaces, so my portfolio has an optical bench on it.
+
+A point source, a lens, a prism and a screen. Every ray is refracted on its own by the paraxial thin-lens law — nothing tells the fan where to meet. **That they meet at all is the thin-lens equation, emerging rather than being applied.** Put the prism in and the source turns white; fifteen wavelengths are then refracted at both glass faces with a refractive index of their own, from the published Sellmeier coefficients for real Schott glass.
+
+Slide the sampler along the spectrum, press *use this colour*, and **that wavelength becomes the site's accent** — live in every section, and persisted.
+
+Eight interface components came out of it. Each one is something interfaces already do, done from the equation instead of from an impression of it:
+
+| | Replaces | Physics |
+|---|---|---|
+| **Fresnel edge** | the uniform 1px glass border | `R = R₀ + (1 − R₀)(1 − cos θ)⁵` |
+| **Refraction, not blur** | `backdrop-filter: blur()` | `d = t·sin(θ₁ − θ₂)/cos(θ₂)` |
+| **Caustic shadow** | `box-shadow` under glass | ray density after refraction |
+| **Total internal reflection** | a shake animation | `θc = arcsin(n₂/n₁)` |
+| **Depth of field** | a hand-picked blur ramp | circle of confusion |
+| **Chromatic aberration** | a fixed 2px RGB offset | `f(λ) → m(λ)`, offset ∝ radius |
+| **Thin-film interference** | an iridescent gradient | `R(λ) ∝ sin²(π·Δ/λ)` |
+| **Diffraction grating** | a holographic gradient | `d · sin θ = m λ` |
+
+The maths lives in pure modules with no React in them, and **`npm run optics:check` holds all of it against closed forms, published constants and conservation laws** — 105 assertions. The marcher's smallest achievable deviation matches `δ_min = 2·arcsin(n·sin(A/2)) − A` to three decimals. The caustic conserves light to one part in a hundred thousand. A film of zero thickness comes out dark, which is why a soap bubble goes black just before it bursts.
+
+<sub>Three of those were caught by the assertions. Two only by screenshotting.</sub>
+
+---
+
+## `[ 02 ]` &nbsp; Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### CraftUI
+**Building** · [craftui.space](https://www.craftui.space/)
+
+A growing library of blocks, sections and interactive components built on Motion — micro-interactions and animation, with the fundamentals done properly.
+
+`Next.js` `Tailwind` `Motion`
+
+</td>
+<td width="50%" valign="top">
+
+### Quest
+**Freelance** · [fraterny.com/quest](https://www.fraterny.com/quest)
+
+An AI-powered platform for psychological assessment. Design and build, front to back.
+
+`React` `Tailwind` `Node.js` `MongoDB`
+
+</td>
+</tr>
+</table>
+
+---
+
+## `[ 03 ]` &nbsp; Writing
+
+I write about the small things that make interfaces feel right.
+
+- **[Fixing invisible space with two lines of CSS](https://www.indrabuildswebsites.com/blog)** — `text-box-trim`, `text-box-edge`, and why your buttons have never been vertically centred
+- **[State management with Zustand](https://www.indrabuildswebsites.com/blog)** — setting it up without the ceremony
+
+---
+
+## `[ 04 ]` &nbsp; What I build with
 
 <div align="center">
-  <img src="https://img.shields.io/badge/FULL%20STACK%20EVENT%20PLATFORM-6A5ACD?style=for-the-badge&logo=rocket&logoColor=white" alt="Current Project" />
+
+<img src="https://img.shields.io/badge/TypeScript-2563EB?style=flat-square&labelColor=0D1117&logo=typescript&logoColor=2563EB" />
+<img src="https://img.shields.io/badge/React-2563EB?style=flat-square&labelColor=0D1117&logo=react&logoColor=2563EB" />
+<img src="https://img.shields.io/badge/Next.js-2563EB?style=flat-square&labelColor=0D1117&logo=nextdotjs&logoColor=2563EB" />
+<img src="https://img.shields.io/badge/Tailwind-2563EB?style=flat-square&labelColor=0D1117&logo=tailwindcss&logoColor=2563EB" />
+<img src="https://img.shields.io/badge/Motion-2563EB?style=flat-square&labelColor=0D1117&logo=framer&logoColor=2563EB" />
+<img src="https://img.shields.io/badge/GSAP-2563EB?style=flat-square&labelColor=0D1117&logo=greensock&logoColor=2563EB" />
+<br/>
+<img src="https://img.shields.io/badge/Node.js-8B8B93?style=flat-square&labelColor=0D1117&logo=nodedotjs&logoColor=8B8B93" />
+<img src="https://img.shields.io/badge/MongoDB-8B8B93?style=flat-square&labelColor=0D1117&logo=mongodb&logoColor=8B8B93" />
+<img src="https://img.shields.io/badge/MDX-8B8B93?style=flat-square&labelColor=0D1117&logo=mdx&logoColor=8B8B93" />
+<img src="https://img.shields.io/badge/Figma-8B8B93?style=flat-square&labelColor=0D1117&logo=figma&logoColor=8B8B93" />
+<img src="https://img.shields.io/badge/SVG%20%2F%20Canvas-8B8B93?style=flat-square&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/Git-8B8B93?style=flat-square&labelColor=0D1117&logo=git&logoColor=8B8B93" />
+
 </div>
 
-I'm currently building a **full-featured Event Management platform** using the MERN stack (MongoDB, Express, React, Node.js). This project focuses on implementing secure Event management System, responsive design, and optimized performance metrics.
+<div align="center"><sub>Blue is what I reach for first. Grey is what I reach for when the job needs it.</sub></div>
 
-## 🌟 Open to Opportunities
+---
 
-<div align="center">
-  <img src="https://img.shields.io/badge/ACTIVELY%20SEEKING-FF6B6B?style=for-the-badge&logo=search&logoColor=white" alt="Job Search" />
-  <img src="https://img.shields.io/badge/JOB%20OPPORTUNITIES-4ECDC4?style=for-the-badge&logo=briefcase&logoColor=white" alt="Job Opportunities" />
-</div>
-
-I'm currently looking for **Full Stack Developer**, **Frontend/Backend Developer**, and **SDE1** roles where I can apply my technical skills and continue to grow as a developer. Open to both **job and internship opportunities** with teams that value continuous learning and innovation.
+## `[ 05 ]` &nbsp; Stats
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/indranil-maiti-b56967228/" target="_blank">
-    <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=Indra-photon&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=2563EB&icon_color=2563EB&text_color=8B8B93&hide=issues" alt="GitHub Stats" />
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Indra-photon&layout=compact&hide_border=true&bg_color=0D1117&title_color=2563EB&text_color=8B8B93&langs_count=6" alt="Top Languages" />
+
+<br/>
+
+<img height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=Indra-photon&hide_border=true&background=0D1117&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=8B8B93&dates=8B8B93&sideNums=8B8B93&currStreakNum=FFFFFF" alt="Streak" />
+
 </div>
 
 ---
 
-## 💻 Tech Stack & Skills
+## `[ 06 ]` &nbsp; Open to work
 
-### 🌐 Languages
-<div align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-</div>
-
-### 🛠️ Frameworks & Libraries
-<div align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-</div>
-
-### 🗄️ Tools & Platforms
-<div align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Indra-photon&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Indra-photon&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Indra-photon&theme=radical&hide_border=true" alt="GitHub Streak" />
-</div>
-
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/indranil-maiti-b56967228/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://www.facebook.com/indranil.maiti.564/" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-  </a>
-  <a href="https://www.instagram.com/indra_lone_wolf/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Indra-photon&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</div>
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Quote" />
-</div>
-
----
-
-**"Code is like humor. When you have to explain it, it's bad."** – Cory House
+I'm looking for **design engineer** and **product-minded frontend** roles — teams where the interface is the product and someone is expected to care about why the easing curve is that one.
